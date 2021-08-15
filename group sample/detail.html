@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class='h-100 ee'>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,9 +14,11 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="i.css">
 </head>
-<body  class='h-100 ee'>
+
+<body class='h-100 ee'>
     <div class='d-flex flex-shrink-0 justify-content-between flex-column h-100'>
         <header class='px-2 py-1 primaryly'>
+
             <div class='navbar navbar-expand-lg navbar-light  my-2'>
                 <div class='navbar-brand w-25'>
                     <img src='./lotaya.svg' class='img-fluid' />
@@ -26,22 +29,176 @@
                 </button>
                 <div class='collapse navbar-collapse' id='collapseable'>
                     <ul class='navbar-nav ms-auto'>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>Home</a></li>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>About</a></li>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>Rent</a></li>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>Buy</a></li>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>Login</a></li>
-                        <li class='nav-item'><a href='#' class='nav-link text-white'>Saved</a></li>
+                        <li class='nav-item mx-2'><a href='index.html' class='nav-link text-white'>Home</a></li>
+                        <li class='nav-item mx-2'><a href='about.html' class='nav-link text-white'>About</a></li>
+                        <li class='nav-item mx-2'><a href='showroom.html' class='nav-link text-white'>Rent</a></li>
+                        <li class='nav-item mx-2'><a href='showroom.html' class='nav-link text-white'>Buy</a></li>
+                        <li class='nav-item mx-2'><a href='saved.html' class='nav-link text-white'>Interest</a></li>
+                        <li class='nav-item'><a href='login.html' class='nav-link text-white'><button
+                                    class=' btn btn-outline-light'>Login</button></a></li>
                     </ul>
                 </div>
             </div>
         </header>
-        <div class='container'>
-            <div class='d-flex '>
-                <h1>
-
-                </h1>
+        <div class='container flex-shrink-0'>
+            <div class='d-block mx-auto shadow-sm py-3'>
+                <div class='d-md-flex justify-content-between'>
+                    <div class='w-md-25'>
+                        <img src='./house1.png' class='img-fluid rounded-3 rounded'>
+                    </div>
+                    <div class='d-block my-auto'>
+                        <table border=0 class='table table-borderless '>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Name
+                                    </td>
+                                    <td>
+                                        Gandamar house
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Price
+                                    </td>
+                                    <td>
+                                        110000
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Address
+                                    </td>
+                                    <td>
+                                        555 Ridge Rd
+                                        Franklin, Georgia(GA), 30217
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class='p-2'>
+                                        Type
+                                    </td>
+                                    <td>
+                                        lone chin
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button class='btn btn-primary w-100 rounded-3'>Interest</button>
+                    </div>
+                </div>
             </div>
+        </div>
+        <hr class='opacity-25 m-1'>
+        <div class='display-4'>
+            More Information About House
+        </div>
+        <div class='d-block mx-auto'>
+            <table class='table table-bordered my-2'>
+                <tr>
+                    <td class='p-2'>
+                        No of bedrooms
+                    </td>
+                    <td class='p-2'>
+                        5
+                    </td>
+                </tr>
+                <tr>
+                    <td class='p-2'>
+                        No of Masterrooms
+                    </td>
+                    <td class='p-2'>
+                        3
+                    </td>
+                </tr>
+                <tr>
+                    <td class='p-2'>
+                        No of Showers
+                    </td>
+                    <td class='p-2'>
+                        1
+                    </td>
+                </tr>
+                <tr>
+                    <td class='p-2'>
+                        Decoration and funiture Ready
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <hr class='disabled opacity-25'>
+        <div class='text-center display-2'>
+            The More You Interest
+        </div>
+        <div class=' row row-cols-md-2 row-cols-xl-3 row-cols-sm-1 my-2 flex-shrink-0'>
+            <div class='col-lg-4 col-sm-12'>
+                <a href='./detail.html' class='text-decoration-none text-black'>
+                    <div class='card p-2'>
+                        <div class='card-img'>
+                            <img src='./house1.png' class='img-fluid'>
+                        </div>
+                        <div class='card-header text-center'>kdjaskkasjfka</div>
+                        <div class='card-body'>
+                            <div class='d-inline'>
+                                <ul>
+                                    <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                    <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                </ul>
+                            </div>
+            
+                            <button class='btn btn-primary w-100'>Interest</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class='col-lg-4 col-sm-12'>
+                <a href='./detail.html' class='text-decoration-none text-black'>
+                    <div class='card p-2'>
+                        <div class='card-img'>
+                            <img src='./house1.png' class='img-fluid'>
+                        </div>
+                        <div class='card-header text-center'>kdjaskkasjfka</div>
+                        <div class='card-body'>
+                            <div class='d-inline'>
+                                <ul>
+                                    <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                    <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                </ul>
+                            </div>
+            
+                            <button class='btn btn-primary w-100'>Interest</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+                <div class='col-lg-4 col-sm-12'>
+                    <a href='./detail.html' class='text-decoration-none text-black'>
+                    <div class='card p-2'>
+                        <div class='card-img'>
+                            <img src='./house1.png' class='img-fluid'>
+                        </div>
+                        <div class='card-header text-center'>kdjaskkasjfka</div>
+                        <div class='card-body'>
+                            <div class='d-inline'>
+                                <ul>
+                                    <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                    <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                </ul>
+                            </div>
+
+                            <button class='btn btn-primary w-100'>Interest</button>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            
+            <!-- end of main -->
+            
         </div>
         <div class='container-fluid primaryly'>
             <footer class='d-flex justify-content-lg-between  text-white'>
@@ -58,6 +215,7 @@
                 </div>
             </footer>
         </div>
-        </div>
+    </div>
 </body>
+
 </html>
