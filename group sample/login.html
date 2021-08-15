@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class='h-100'>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +14,65 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
-<body class='h-100'>
-    <div class='container-fluid h-100'>
-        <div class=' d-block my-auto h-100'>
-            <div class='disabled text-center h-100 d-block my-auto'>
-                <img src='under-construction.jpg' class='' width=200 height=200>
-                This is avaliable in Implemention.This is still in development
+
+<body class='h-100 ee'>
+    <header class='px-2 py-1 primaryly'>
+    
+        <div class='navbar navbar-expand-lg navbar-light  my-2'>
+            <div class='navbar-brand w-25'>
+                <img src='./lotaya.svg' class='img-fluid' />
+            </div>
+            <button class='navbar-toggler' type="button" data-bs-toggle='collapse' data-bs-target='#collapseable'
+                aria-controls='collapseable' aria-expanded='false' aria-label='toggle position'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='collapseable'>
+                <ul class='navbar-nav ms-auto'>
+                    <li class='nav-item mx-2'><a href='index.html' class='nav-link text-white'>Home</a></li>
+                    <li class='nav-item mx-2'><a href='about.html' class='nav-link text-white'>About</a></li>
+                    <li class='nav-item mx-2'><a href='showroom.html' class='nav-link text-white'>Rent</a></li>
+                    <li class='nav-item mx-2 active'><a href='showroom.html' class='nav-link text-white '>Buy</a></li>
+                    <li class='nav-item mx-2'><a href='saved.html' class='nav-link text-white'>Interest</a></li>
+                    <li class='nav-item'><a href='login.html' class='nav-link text-white'><button
+                                class=' btn btn-outline-light'>Login</button></a></li>
+                </ul>
             </div>
         </div>
+    </header>
+    <div class='container-fluid  '>
+        <div class='d-flex justify-content-center align-items-center h-100 p-3'>
+            <form class='p-5 m-4 rounded-3 bg-white'>
+                <div class='display-2 text-center mb-2 p-1'><i class="bi bi-person-circle"></i></div>
+                <h1 class='mb-3'>Welcome From Premire</h1>
+                <div class='mb-2'>
+                    <label class='form-label'>Name</label>
+                    <input type="text" class='form-control placeholder-glow' placeholder="Name">
+                </div>
+                <div class='mb-2'>
+                    <label class='form-label'>Password</label>
+                    <input type="text" class='form-control placeholder-glow' placeholder="Password">
+                </div>
+                <input type='submit' class='btn btn-primary w-100 p-1' value='Login'>
+            </form>
+        </div>
+    </div>
+    <div class='container-fluid primaryly'>
+        <footer class='d-flex justify-content-lg-between  text-white'>
+            <div class='p-2'>
+                <img src='./lotaya.svg' width=100 height=50>
+                Premier
+                <div class='text-wrap'>
+                    No 50,coner of myintawthar st and aungthitsar st,<br>
+                    tharkayta.
+                </div>
+            </div>
+            <div class='p-2'>
+                This is brought to you by the Developer Team of blah blah blah
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>
