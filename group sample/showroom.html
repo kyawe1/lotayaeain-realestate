@@ -13,14 +13,14 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="i.css">
-    
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
 
 <body class='h-100 ee'>
     <div class='d-flex flex-shrink-0 justify-content-between flex-column h-100'>
         <header class='px-2 py-1 primaryly'>
-        
+
             <div class='navbar navbar-expand-lg navbar-light  my-2'>
                 <div class='navbar-brand w-25'>
                     <img src='./lotaya.svg' class='img-fluid' />
@@ -34,7 +34,8 @@
                         <li class='nav-item mx-2'><a href='index.html' class='nav-link text-white'>Home</a></li>
                         <li class='nav-item mx-2'><a href='about.html' class='nav-link text-white'>About</a></li>
                         <li class='nav-item mx-2'><a href='showroom.html' class='nav-link text-white'>Rent</a></li>
-                        <li class='nav-item mx-2 active'><a href='showroom.html' class='nav-link text-white '>Buy</a></li>
+                        <li class='nav-item mx-2 active'><a href='showroom.html' class='nav-link text-white '>Buy</a>
+                        </li>
                         <li class='nav-item mx-2'><a href='saved.html' class='nav-link text-white'>Interest</a></li>
                         <li class='nav-item'><a href='login.html' class='nav-link text-white'><button
                                     class=' btn btn-outline-light'>Login</button></a></li>
@@ -45,7 +46,7 @@
         <div class='display-3 opacity-75 p-2 m-2 text-center'> Showroom </div>
         <div class='containter-lg my-2 py-2'>
             <div class='row row-cols-md-2 row-cols-sm-1'>
-                
+
                 <div class='col-lg-3 col-md-4 col-sm-12 top-0 position-lg-sticky d-block '>
                     <div class='m-2 p-1'>
                         <form class=''>
@@ -54,17 +55,17 @@
                                 <input type="submit" class='btn btn-primary' value="Submit">
                             </div>
                         </form>
-                        
-                            <div class=' display-5'>Categories</div>
-                            <div class='opacity-50'>
-                                <div class='p-2 m-1'>
-                                    <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Apartment</span>
-                                    <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Lone Chin</span>
-                                    <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Housing</span>
-                                    <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Condo</span>
-                                </div>
+
+                        <div class=' display-5'>Categories</div>
+                        <div class='opacity-50'>
+                            <div class='p-2 m-1'>
+                                <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Apartment</span>
+                                <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Lone Chin</span>
+                                <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Housing</span>
+                                <span class='border border-1 border-dark p-1 rounded-2 lh-lg'>Condo</span>
                             </div>
-                        
+                        </div>
+
                         <div class=' display-5'>Popular Search</div>
                         <div class='opacity-50'>
                             <div class='p-2 m-1'>
@@ -76,13 +77,98 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-md-8 col-sm-12'>
-                <div class='row row-cols-md-2 row-cols-xl-3'>
-                    
-                    <a href='./detail.html' class='text-decoration-none text-black'>
-                    
+                <div class='col-md-8 col-lg-9 col-sm-12'>
+                    <div class='row row-cols-md-2 row-cols-xl-3'>
+
+                        <div class='col'>
+                            <div class='card p-2'>
+                                <a href='./detail.html' class='text-decoration-none text-black'>
+                                    <div class='card-img'>
+                                        <img src='./house1.png' class='img-fluid'>
+                                    </div>
+                                    <div class='card-header text-center'>kdjaskkasjfka</div>
+                                    <div class='card-body'>
+                                        <div class='d-inline'>
+                                            <ul>
+                                                <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                                <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                            </ul>
+                                        </div>
+                                        <table border=0>
+                                            <tr>
+                                                <td class='align-text-top'>price</td>
+                                                <td class='text-right'>100LKS</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='align-text-top'>address</td>
+                                                <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing elit. Nemo corrupti,</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class='align-text-top'>owner info</td>
+                                                <td class='text-right'>hello world</td>
+                                            </tr>
+
+                                        </table>
+                                        <div class='p-1 m-1'>
+                                            <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                                            <img src='wc_black_24dp.svg' width=25 height="25">4
+                                        </div>
+                                </a>
+                                <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                     <div class='col'>
                         <div class='card p-2'>
+                            <a href='./detail.html' class='text-decoration-none text-black'>
+                                <div class='card-img'>
+                                    <img src='./house1.png' class='img-fluid'>
+                                </div>
+                                <div class='card-header text-center'>kdjaskkasjfka</div>
+                                <div class='card-body'>
+                                    <div class='d-inline'>
+                                        <ul>
+                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                        </ul>
+                                    </div>
+                                    <table border=0>
+                                        <tr>
+                                            <td class='align-text-top'>price</td>
+                                            <td class='text-right'>100LKS</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='align-text-top'>address</td>
+                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                                adipisicing elit. Nemo corrupti,</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class='align-text-top'>owner info</td>
+                                            <td class='text-right'>hello world</td>
+                                        </tr>
+
+                                    </table>
+                                    <div class='p-1 m-1'>
+                                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                                    </div>
+                            </a>
+                            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class='col'>
+                    <div class='card p-2'>
+                        <a href='./detail.html' class='text-decoration-none text-black'>
                             <div class='card-img'>
                                 <img src='./house1.png' class='img-fluid'>
                             </div>
@@ -97,255 +183,424 @@
                                 <table border=0>
                                     <tr>
                                         <td class='align-text-top'>price</td>
-                                        <td class='text-right'>100000</td>
+                                        <td class='text-right'>100LKS</td>
                                     </tr>
                                     <tr>
                                         <td class='align-text-top'>address</td>
-                                        <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,</td>
-                    
+                                        <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit. Nemo corrupti,</td>
+
                                     </tr>
                                     <tr>
                                         <td class='align-text-top'>owner info</td>
                                         <td class='text-right'>hello world</td>
                                     </tr>
-                    
+
                                 </table>
-                                <button class='btn btn-primary w-100'><i class="bi bi-star mx-2"></i>Interest</button>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                    <a href='./detail.html' class='text-decoration-none text-black'>
-                    <div class='col'>
-                        <div class='card p-2'>
-                            <div class='card-img'>
-                                <img src='./house1.png' class='img-fluid'>
-                            </div>
-                            <div class='card-header text-center'>kdjaskkasjfka</div>
-                            <div class='card-body'>
-                                <div class='d-inline'>
-                                    <ul>
-                                        <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                        <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                    </ul>
+                                <div class='p-1 m-1'>
+                                    <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                                    <img src='wc_black_24dp.svg' width=25 height="25">4
                                 </div>
-                                <table border=0>
-                                    <tr>
-                                        <td class='align-text-top'>price</td>
-                                        <td class='text-right'>100000</td>
-                                    </tr>
-                                    <tr>
-                                        <td class='align-text-top'>address</td>
-                                        <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,</td>
-                    
-                                    </tr>
-                                    <tr>
-                                        <td class='align-text-top'>owner info</td>
-                                        <td class='text-right'>hello world</td>
-                                    </tr>
-                    
-                                </table>
-                                <button class='btn btn-primary w-100'>Interest</button>
-                            </div>
-                        </div>
-                    </div>
-                    </a><a href='./detail.html' class='text-decoration-none text-black'>
-                        <div class='col'>
-                            <div class='card p-2'>
-                                <div class='card-img'>
-                                    <img src='./house1.png' class='img-fluid'>
-                                </div>
-                                <div class='card-header text-center'>kdjaskkasjfka</div>
-                                <div class='card-body'>
-                                    <div class='d-inline'>
-                                        <ul>
-                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                        </ul>
-                                    </div>
-                                    <table border=0>
-                                        <tr>
-                                            <td class='align-text-top'>price</td>
-                                            <td class='text-right'>100000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>address</td>
-                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,
-                                            </td>
-                    
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>owner info</td>
-                                            <td class='text-right'>hello world</td>
-                                        </tr>
-                    
-                                    </table>
-                                    <button class='btn btn-primary w-100'>Interest</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a><a href='./detail.html' class='text-decoration-none text-black'>
-                        <div class='col'>
-                            <div class='card p-2'>
-                                <div class='card-img'>
-                                    <img src='./house1.png' class='img-fluid'>
-                                </div>
-                                <div class='card-header text-center'>kdjaskkasjfka</div>
-                                <div class='card-body'>
-                                    <div class='d-inline'>
-                                        <ul>
-                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                        </ul>
-                                    </div>
-                                    <table border=0>
-                                        <tr>
-                                            <td class='align-text-top'>price</td>
-                                            <td class='text-right'>100000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>address</td>
-                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,
-                                            </td>
-                    
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>owner info</td>
-                                            <td class='text-right'>hello world</td>
-                                        </tr>
-                    
-                                    </table>
-                                    <button class='btn btn-primary w-100'>Interest</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a><a href='./detail.html' class='text-decoration-none text-black'>
-                        <div class='col'>
-                            <div class='card p-2'>
-                                <div class='card-img'>
-                                    <img src='./house1.png' class='img-fluid'>
-                                </div>
-                                <div class='card-header text-center'>kdjaskkasjfka</div>
-                                <div class='card-body'>
-                                    <div class='d-inline'>
-                                        <ul>
-                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                        </ul>
-                                    </div>
-                                    <table border=0>
-                                        <tr>
-                                            <td class='align-text-top'>price</td>
-                                            <td class='text-right'>100000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>address</td>
-                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,
-                                            </td>
-                    
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>owner info</td>
-                                            <td class='text-right'>hello world</td>
-                                        </tr>
-                    
-                                    </table>
-                                    <button class='btn btn-primary w-100'>Interest</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a><a href='./detail.html' class='text-decoration-none text-black'>
-                        <div class='col'>
-                            <div class='card p-2'>
-                                <div class='card-img'>
-                                    <img src='./house1.png' class='img-fluid'>
-                                </div>
-                                <div class='card-header text-center'>kdjaskkasjfka</div>
-                                <div class='card-body'>
-                                    <div class='d-inline'>
-                                        <ul>
-                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                        </ul>
-                                    </div>
-                                    <table border=0>
-                                        <tr>
-                                            <td class='align-text-top'>price</td>
-                                            <td class='text-right'>100000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>address</td>
-                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,
-                                            </td>
-                    
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>owner info</td>
-                                            <td class='text-right'>hello world</td>
-                                        </tr>
-                    
-                                    </table>
-                                    <button class='btn btn-primary w-100'>Interest</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a><a href='./detail.html' class='text-decoration-none text-black'>
-                        <div class='col'>
-                            <div class='card p-2'>
-                                <div class='card-img'>
-                                    <img src='./house1.png' class='img-fluid'>
-                                </div>
-                                <div class='card-header text-center'>kdjaskkasjfka</div>
-                                <div class='card-body'>
-                                    <div class='d-inline'>
-                                        <ul>
-                                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
-                                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
-                                        </ul>
-                                    </div>
-                                    <table border=0>
-                                        <tr>
-                                            <td class='align-text-top'>price</td>
-                                            <td class='text-right'>100000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>address</td>
-                                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo corrupti,
-                                            </td>
-                    
-                                        </tr>
-                                        <tr>
-                                            <td class='align-text-top'>owner info</td>
-                                            <td class='text-right'>hello world</td>
-                                        </tr>
-                    
-                                    </table>
-                                    <button class='btn btn-primary w-100'>Interest</button>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <!--- main div --->
+                        </a>
+                        <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
                     </div>
                 </div>
             </div>
+
+
+
+            <div class='col'>
+                <div class='card p-2'>
+                    <a href='./detail.html' class='text-decoration-none text-black'>
+                        <div class='card-img'>
+                            <img src='./house1.png' class='img-fluid'>
+                        </div>
+                        <div class='card-header text-center'>kdjaskkasjfka</div>
+                        <div class='card-body'>
+                            <div class='d-inline'>
+                                <ul>
+                                    <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                    <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                                </ul>
+                            </div>
+                            <table border=0>
+                                <tr>
+                                    <td class='align-text-top'>price</td>
+                                    <td class='text-right'>100LKS</td>
+                                </tr>
+                                <tr>
+                                    <td class='align-text-top'>address</td>
+                                    <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Nemo corrupti,</td>
+
+                                </tr>
+                                <tr>
+                                    <td class='align-text-top'>owner info</td>
+                                    <td class='text-right'>hello world</td>
+                                </tr>
+
+                            </table>
+                            <div class='p-1 m-1'>
+                                <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                                <img src='wc_black_24dp.svg' width=25 height="25">4
+                            </div>
+                    </a>
+                    <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+                </div>
+            </div>
         </div>
-        <div class='container-fluid primaryly'>
-            <footer class='d-flex justify-content-lg-between  text-white'>
-                <div class='p-2'>
-                    <img src='./lotaya.svg' width=100 height=50>
-                    Premier
-                    <div class='text-wrap'>
-                        No 50,coner of myintawthar st and aungthitsar st,<br>
-                        tharkayta.
+
+
+
+        <div class='col'>
+            <div class='card p-2'>
+                <a href='./detail.html' class='text-decoration-none text-black'>
+                    <div class='card-img'>
+                        <img src='./house1.png' class='img-fluid'>
                     </div>
-                </div>
-                <div class='p-2'>
-                    This is brought to you by the Developer Team of blah blah blah
-                </div>
-            </footer>
+                    <div class='card-header text-center'>kdjaskkasjfka</div>
+                    <div class='card-body'>
+                        <div class='d-inline'>
+                            <ul>
+                                <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                                <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                            </ul>
+                        </div>
+                        <table border=0>
+                            <tr>
+                                <td class='align-text-top'>price</td>
+                                <td class='text-right'>100LKS</td>
+                            </tr>
+                            <tr>
+                                <td class='align-text-top'>address</td>
+                                <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Nemo corrupti,</td>
+
+                            </tr>
+                            <tr>
+                                <td class='align-text-top'>owner info</td>
+                                <td class='text-right'>hello world</td>
+                            </tr>
+
+                        </table>
+                        <div class='p-1 m-1'>
+                            <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                            <img src='wc_black_24dp.svg' width=25 height="25">4
+                        </div>
+                </a>
+                <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+            </div>
         </div>
     </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class='col'>
+        <div class='card p-2'>
+            <a href='./detail.html' class='text-decoration-none text-black'>
+                <div class='card-img'>
+                    <img src='./house1.png' class='img-fluid'>
+                </div>
+                <div class='card-header text-center'>kdjaskkasjfka</div>
+                <div class='card-body'>
+                    <div class='d-inline'>
+                        <ul>
+                            <li class='d-inline bg-danger p-2 rounded-3 text-light'>Rent</li>
+                            <li class='d-inline bg-warning p-2 rounded-3'>Sell</li>
+                        </ul>
+                    </div>
+                    <table border=0>
+                        <tr>
+                            <td class='align-text-top'>price</td>
+                            <td class='text-right'>100LKS</td>
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>address</td>
+                            <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nemo corrupti,</td>
+
+                        </tr>
+                        <tr>
+                            <td class='align-text-top'>owner info</td>
+                            <td class='text-right'>hello world</td>
+                        </tr>
+
+                    </table>
+                    <div class='p-1 m-1'>
+                        <img src='bed_black_24dp.svg' width=25 height="25"> 3
+                        <img src='wc_black_24dp.svg' width=25 height="25">4
+                    </div>
+            </a>
+            <button class='btn btn-primary w-100'><i class="bi bi-star mx-2" name='btn-icon'></i>Interest</button>
+        </div>
+    </div>
+    </div>
+    <!-- </a> -->
+    <!--- main div --->
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class='container-fluid primaryly'>
+        <footer class='d-flex justify-content-lg-between  text-white'>
+            <div class='p-2'>
+                <img src='./lotaya.svg' width=100 height=50>
+                Premier
+                <div class='text-wrap'>
+                    No 50,coner of myintawthar st and aungthitsar st,<br>
+                    tharkayta.
+                </div>
+            </div>
+            <div class='p-2'>
+                This is brought to you by the Developer Team of blah blah blah
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script>
+        m = document.getElementsByClassName('btn btn-primary w-100')
+        for (i of m) {
+            i.onclick = (e) => {
+                console.log(e)
+                console.log(e.target.children[0].className)
+                if (e.target.children[0].className == 'bi bi-star-fill mx-2') {
+                    e.target.children[0].className = 'bi bi-star mx-2'
+                } else {
+                    e.target.children[0].className = 'bi bi-star-fill mx-2'
+                }
+
+            }
+        }
+        k=document.getElementsByName('btn-icon')
+        for (i of k){
+            i.onclick = (e) => {
+                console.log(e)
+                console.log(e.target.className)
+                if (e.target.className == 'bi bi-star-fill mx-2') {
+                    e.target.className = 'bi bi-star mx-2'
+                } else {
+                    e.target.className = 'bi bi-star-fill mx-2'
+                }
+
+            }
+        }
+    </script>
 </body>
 
 </html>
