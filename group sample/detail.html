@@ -179,17 +179,17 @@
                             </div>
                             <table border=0>
                                 <tr>
-                                    <td class='align-text-top'>price</td>
+                                    <td class='align-text-top'><i class="bi bi-tag-fill mx-2"></i>price</td>
                                     <td class='text-right'>100LKS</td>
                                 </tr>
                                 <tr>
-                                    <td class='align-text-top'>address</td>
-                                    <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
-                                        adipisicing elit. Nemo corrupti,</td>
+                                    <td class='align-text-top'><i class="bi bi-geo-alt-fill mx-2"></i>address</td>
+                                    <td class='text-right'>555 Ridge Rd
+                                    Franklin, Georgia(GA), 30217</td>
 
                                 </tr>
                                 <tr>
-                                    <td class='align-text-top'>owner info</td>
+                                    <td class='align-text-top'><i class="bi bi-person-circle"></i>owner</td>
                                     <td class='text-right'>hello world</td>
                                 </tr>
 
@@ -224,17 +224,17 @@
                                 </div>
                                 <table border=0>
                                     <tr>
-                                        <td class='align-text-top'>price</td>
+                                        <td class='align-text-top'><i class="bi bi-tag-fill mx-2"></i>price</td>
                                         <td class='text-right'>100LKS</td>
                                     </tr>
                                     <tr>
-                                        <td class='align-text-top'>address</td>
-                                        <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
-                                            adipisicing elit. Nemo corrupti,</td>
+                                        <td class='align-text-top'><i class="bi bi-geo-alt-fill mx-2"></i>address</td>
+                                        <td class='text-right'>555 Ridge Rd
+                                        Franklin, Georgia(GA), 30217</td>
 
                                     </tr>
                                     <tr>
-                                        <td class='align-text-top'>owner info</td>
+                                        <td class='align-text-top'><i class="bi bi-person-circle"></i>owner</td>
                                         <td class='text-right'>hello world</td>
                                     </tr>
 
@@ -269,17 +269,17 @@
                             </div>
                             <table border=0>
                                 <tr>
-                                    <td class='align-text-top'>price</td>
+                                    <td class='align-text-top'><i class="bi bi-tag-fill mx-2"></i>price</td>
                                     <td class='text-right'>100LKS</td>
                                 </tr>
                                 <tr>
-                                    <td class='align-text-top'>address</td>
-                                    <td class='text-right'>Lorem ipsum dolor, sit amet consectetur
-                                        adipisicing elit. Nemo corrupti,</td>
+                                    <td class='align-text-top'><i class="bi bi-geo-alt-fill mx-2"></i>address</td>
+                                    <td class='text-right'>555 Ridge Rd
+                                    Franklin, Georgia(GA), 30217</td>
 
                                 </tr>
                                 <tr>
-                                    <td class='align-text-top'>owner info</td>
+                                    <td class='align-text-top'><i class="bi bi-person-circle"></i>owner</td>
                                     <td class='text-right'>hello world</td>
                                 </tr>
 
@@ -314,33 +314,8 @@
             </footer>
         </div>
     </div>
-    <script>
-        m = document.getElementsByClassName('btn btn-primary w-100')
-            for (i of m) {
-                i.onclick = (e) => {
-                    console.log(e)
-                    console.log(e.target.children[0].className)
-                    if (e.target.children[0].className == 'bi bi-star-fill mx-2') {
-                        e.target.children[0].className = 'bi bi-star mx-2'
-                    } else {
-                        e.target.children[0].className = 'bi bi-star-fill mx-2'
-                    }
-
-                }
-            }
-        k = document.getElementsByName('btn-icon')
-            for (i of k) {
-                i.onclick = (e) => {
-                    console.log(e)
-                    console.log(e.target.className)
-                    if (e.target.className == 'bi bi-star-fill mx-2') {
-                        e.target.className = 'bi bi-star mx-2'
-                    } else {
-                        e.target.className = 'bi bi-star-fill mx-2'
-                    }
-
-                }
-            }
+    <script src='./button.js'>
+       
     </script>
 </body>
 
