@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.news{
+    width: 80%;
+    margin: 100px auto;
+    columns: 3 250px;
+}
+.card{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.4s;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px 1px #cdd5d5;
+}
+.card-img{
+    width: 100%;
+}
+.title{
+    margin: 10px auto;
+}
+.author{
+
+}
+.description{
+    margin: 10px auto;
+}
+/*.card a{*/
+/*    text-decoration: none;*/
+/*    border: 1px black solid;*/
+/*    border-radius: 3px;*/
+/*    padding: 3px;*/
+/*}*/
+.card-bar{
+    width: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 3px -1px #cdd5d5;
+}
+.btn{
+    outline-style: none;
+    background: none;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+.btn-1{
+
+}
+.btn-2{
+
+}
+.btn-3{
+
+}
+.btn-1:hover, .btn-2:hover, .detail:hover{
+    cursor: pointer;
+    background: #8dc0f1;
+    border-radius: 5px;
+    color: inherit;
+
+}
+.detail{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.news-menubar{
+    margin: 5px;
+}
+.news-menubar .tag{
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background: #8dc0f1;
+    border-radius: 5px;
+    color: inherit;
+    transition: 0.2s;
+    margin: 5px;
+}
+.news-menubar .tag:hover{
+    background: #3991f1;
+}
+
+.btn-search{
+    padding: 5px;background-color: #f5ac33;border: 1px black solid;border-radius:5px;
+}
+.input{
+
+}
+.inp{
+    background-color: #efefef;
+    border: 2px solid #7bb3ec;
+    border-radius: 5px;
+    margin: 5px;
+    width: 250px;
+    padding: 0.25rem;
+}
+
+.card-bar, i{
+    margin-right: 3px;
+}
+
+/*News header*/
+.news-header{
+    width: 80%;
+    margin: 100px auto;
+}
+.h{
+
+}
